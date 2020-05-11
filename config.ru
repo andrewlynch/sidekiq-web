@@ -6,6 +6,8 @@ require 'sidekiq-scheduler'
 require 'sidekiq-scheduler/web'
 require 'sidekiq-status'
 require 'sidekiq-status/web'
+require 'sidekiq/cron/web'
+require 'sidekiq_unique_jobs/web'
 
 # Default environment variables
 ENV['SESSION_SECRET'] ||= SecureRandom.hex(64)
