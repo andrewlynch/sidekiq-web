@@ -37,7 +37,7 @@ COPY entrypoint.sh /docker-entrypoint
 COPY config.ru ./
 COPY healthcheck.js ./
 
-# Expose the standard rack port.
+# Expose the standard rack port.bun;
 EXPOSE ${PORT}
 
 # Define the healthcheck.
